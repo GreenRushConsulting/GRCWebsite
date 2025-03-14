@@ -1,0 +1,36 @@
+div#Section2 {
+    max-width: 100% !important;
+    width: 100%;
+}
+div#Section4 {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+div#Section3{
+    width: 100%!important ;
+    max-width: 100%!important ;
+}
+div#Block3 {
+    padding: 0px 50px!important;
+}
+div#Block2 {
+    width: 100% !important;
+}
+
+div#NameMeHarderBro {
+    padding: 20px 50px!important;
+    text-align: left !important;
+}
+
+div#Block2 {
+    position: inherit;
+    display: inline-flex;
+    align-items: baseline !important;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 0px 50px;
+}

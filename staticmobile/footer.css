@@ -1,0 +1,53 @@
+@media screen and (max-width: 808px) {
+    #topbox {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #Bigbox, #Smallbox {
+        width: 100%;
+        padding: 15px;
+        min-height: auto;
+        text-align: center;
+    }
+
+    #Smallbox {
+        max-width: 100%;
+        line-height: 1.5;
+    }
+
+    #company-image-footer {
+        width: 120px;
+        position: relative;
+        left: 40%;
+        display: none;
+    }
+
+    p#InfoFooter {
+        font-size: 24px;
+    }
+
+    p#moreinfo {
+        font-size: 16px;
+    }
+
+    p#Hours, p#Location {
+        font-size: 20px;
+    }
+
+    div#bottombox {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    div#bottombottombox {
+        width: 100%;
+        align-items: center;
+    }
+
+    p#Trademark {
+        text-align: center;
+    }
+}

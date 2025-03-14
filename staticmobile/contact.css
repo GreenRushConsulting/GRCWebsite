@@ -1,0 +1,78 @@
+
+@media screen and (max-width: 808px) {
+
+    p#main1-heading {
+        font-size: 24px;
+        width: 90%;
+    }
+
+    p#sub1-heading {
+        font-size: 14px;
+        width: 90%;
+    }
+
+
+    #TopContainer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #Contatstuff {
+        width: 100%;
+        gap: 25px;
+        padding: 20px;
+    }
+
+
+    .form-container {
+        width: 90%;
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+
+    #company-image-footer {
+        width: 100px;
+        display: none;
+    }
+
+    .ImageContact img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #TopContainer {
+        width: 100%;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: nowrap;
+        padding: 20px;
+        box-sizing: border-box;
+        align-items: center;
+        flex-direction: column;
+    }
+    button#Book {
+        background: green;
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .Footer {
+        top: 250% !important;
+    }
+
+    .form-container {
+        top: 140% !important;
+    }
+    .ImageContact {
+        top: 21%
+    }
+}

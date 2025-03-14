@@ -1,0 +1,126 @@
+@media screen and (max-width: 808px) {
+    div#Tinter {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        max-width: 100%;
+        background-color: #000000d4;
+    }
+
+    div#service1 {
+        position: initial;
+        display: flex;
+        gap: 30px;
+        padding: 40px 0;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#service2 {
+        position: initial;
+        display: flex;
+        gap: 30px;
+        padding: 40px 0;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#service3 {
+        position: initial;
+        display: flex;
+        gap: 30px;
+        padding: 40px 0;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p#Content {
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .services {
+        position: absolute;
+        top: 75%;
+        display: flex;
+        align-items: flex-start;
+        align-content: stretch;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 80%;
+        left: 10%;
+    }
+    
+    .carousel-container {
+        position: absolute;
+        width: 80%;
+        top: 360% !important;
+        border: 1px;
+        border-color: black;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .form-container {
+        width: 90% !important;
+        top: 360% !important;
+    }
+    .Footer {
+        top: 480% !important;
+    }
+
+    p#sub-heading {
+        top: 25%;
+        font-size: 20px;
+        font-family: var(--font-secondary);
+        color: var(--text-color);
+        width: 95%;
+    }
+
+    p#sub-heading2 {
+        top: 32%;
+        font-size: 16px;
+        font-family: var(--font-secondary);
+        color: var(--text-color);
+        z-index: 10;
+        width: 70%;
+        position: absolute;
+        text-align: center;
+        left: 15%;
+    }
+
+    p#main-heading {
+        top: 15%;
+        font-size: 30px;
+        font-family: var(--font-primary);
+        color: var(--heading-color);
+        width: 95%;
+    }
+
+    .VideoBox {
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 85%;
+    }
+
+
+}

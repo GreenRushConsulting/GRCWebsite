@@ -1,0 +1,122 @@
+/* Header Styles */
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px solid #858783;
+    z-index: 1000;
+    padding: 10px 5%;
+}
+
+/* Header Container */
+.HeaderContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+#HeaderImgContainer {
+    flex: 1;
+    min-width: 120px;
+}
+
+img#company-image {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Menu */
+#HeaderMenu {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#HeaderMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#HeaderMenu li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#HeaderMenu a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#HeaderMenu a:hover {
+    color: #007BFF;
+}
+
+/* Contact Info */
+#HeaderContactContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+}
+
+p#Phone,
+p#Phone1 {
+    margin: 5px 0;
+    padding: 0px !important;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(21, 168, 14);
+    font-size: 22px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img#menu-image {
+    width: 85px;
+    height: auto;
+    display: none;
+}
+
+p#Consult {
+    text-align: center;
+    color: #008000a6;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+button#BookConsult {
+    width: 100%;
+    background-color: green;
+    border: 1px;
+    border-color: black;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+a#Hyperlinks {
+    color: green;
+    font-style: normal;
+    text-decoration: none;
+}

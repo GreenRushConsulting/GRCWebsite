@@ -1,4 +1,4 @@
-/* Header Styles */
+
 .Header {
     position: fixed;
     top: 0;
@@ -10,7 +10,7 @@
     padding: 10px 5%;
 }
 
-/* Header Container */
+
 .HeaderContainer {
     display: flex;
     width: 100%;
@@ -19,7 +19,7 @@
     flex-wrap: wrap;
 }
 
-/* Logo */
+
 #HeaderImgContainer {
     flex: 1;
     min-width: 120px;
@@ -30,7 +30,7 @@ img#company-image {
     height: auto;
 }
 
-/* Navigation Menu */
+
 #HeaderMenu {
     flex: 2;
     display: flex;
@@ -64,7 +64,7 @@ img#company-image {
     color: #007BFF;
 }
 
-/* Contact Info */
+
 #HeaderContactContainer {
     flex: 1;
     display: flex;

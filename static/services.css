@@ -1,4 +1,4 @@
- /* Root variables for consistency */
+
  :root {
     --main-green: rgb(102, 189, 50);
     --dark-green: rgb(69, 126, 32);
@@ -15,14 +15,12 @@
     --button-radius: 50px;
 }
 
-/* Global Resets */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Utility Classes */
 .absolute-center {
     position: absolute;
     left: 50%;
@@ -40,7 +38,6 @@
     height: 100%;
 }
 
-/* Spacer Block */
 .SpacerBlock {
     position: absolute;
     top: 1%;
@@ -48,7 +45,6 @@
     height: 12%;
 }
 
-/* Video Section */
 .VideoBox {
     display: flex;
     position: absolute;
@@ -76,7 +72,6 @@
     pointer-events: none;
 }
 
-/* Headings */
 p#main-heading, p#sub-heading {
     position: absolute;
     width: 70%;
@@ -113,7 +108,6 @@ p#sub-heading2 {
     left: 15%;
 }
 
-/* Video Section */
 .VideoBox {
     display: flex;
     position: absolute;

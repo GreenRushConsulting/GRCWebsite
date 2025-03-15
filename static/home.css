@@ -15,14 +15,12 @@
     --button-radius: 50px;
 }
 
-/* Global Resets */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Utility Classes */
 .absolute-center {
     position: absolute;
     left: 50%;
@@ -40,7 +38,7 @@
     height: 100%;
 }
 
-/* Spacer Block */
+
 .SpacerBlock {
     position: absolute;
     top: 1%;
@@ -48,7 +46,7 @@
     height: 12%;
 }
 
-/* Video Section */
+
 .VideoBox {
     display: flex;
     position: absolute;
@@ -76,7 +74,7 @@
     pointer-events: none;
 }
 
-/* Headings */
+
 p#main-heading, p#sub-heading {
     position: absolute;
     width: 70%;
@@ -101,7 +99,7 @@ p#sub-heading {
     color: var(--text-color);
 }
 
-/* Main Button */
+
 button#Main-Button {
     position: absolute;
     top: 80%;
@@ -118,7 +116,7 @@ button#Main-Button {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Contact Boxes */
+
 [class^="ContactBox"] {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -131,7 +129,7 @@ button#Main-Button {
 .ContactBox2 { top: 190%; background-color: var(--dark-green); }
 .ContactBox3 { top: 230%; background-color: var(--darker-green); }
 
-/* Smaller Boxes */
+
 [id^="smallerbox"] {
     width: 30%;
     padding: 10px;
@@ -145,7 +143,7 @@ button#Main-Button {
 #smallerbox1 { background-color: var(--medium-green); }
 #smallerbox2 { background-color: var(--darkest-green); }
 
-/* Slightly Bigger Boxes */
+
 [id^="SlightlyBiggerBox"] {
     width: 60%;
     padding: 10px;
@@ -157,7 +155,6 @@ button#Main-Button {
 #SlightlyBiggerBox1 { background-color: var(--dark-green); }
 #SlightlyBiggerBox2 { background-color: var(--darker-green); }
 
-/* Buttons */
 button {
     display: block;
     margin: 10px auto;
@@ -173,7 +170,7 @@ button:hover {
     background-color: var(--button-hover);
 }
 
-/* Note Section */
+
 #NoteContainer {
     display: flex;
     justify-content: center;

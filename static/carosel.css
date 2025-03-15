@@ -7,9 +7,9 @@
 .carousel-container {
     position: absolute;
     width: 80%;
-    top: 120%; /* Vertical centering */
-    left: 50%; /* Horizontal centering */
-    transform: translate(-50%, -50%); /* Adjusts the element back by half its width and height */
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: 0;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@
 }
 
 .carousel-item {
-    height: 40px; /* Adjust based on your content */
+    height: 40px;
 }
 
 .carousel-item img {

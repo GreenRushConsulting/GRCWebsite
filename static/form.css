@@ -1,4 +1,4 @@
-/* General Form Container */
+
 .form-container {
     width: 60%;
     margin: 50px auto;
@@ -15,7 +15,7 @@
 }
 
 
-/* Form Heading */
+
 .form-container h2 {
     text-align: center;
     color: #333;
@@ -23,7 +23,7 @@
     font-size: 20px;
 }
 
-/* Form Group Layout */
+
 .form-group {
     width: 45%;
     margin-bottom: 15px;
@@ -35,14 +35,12 @@
     flex-direction: column;
 }
 
-/* Labels */
 .form-group label {
     font-weight: bold;
     margin-bottom: 5px;
     color: #555;
 }
 
-/* Input Fields */
 .form-group input,
 .form-group textarea {
     width: 85%;
@@ -55,14 +53,12 @@
     background-color: #fff;
 }
 
-/* Input Focus Effect */
 .form-group input:focus,
 .form-group textarea:focus {
     border-color: #007BFF;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-/* Submit Button */
 .submit-btn {
     position:inherit !important;
     transform: none !important;
@@ -78,13 +74,11 @@
     transition: background-color 0.3s ease !important;
 }
 
-/* Hover Effect for Submit Button */
 .submit-btn:hover {
     background-color: #0056b3;
 }
 
 
-/* Responsive Design */
 @media (max-width: 600px) {
     .form-container {
         padding: 15px;

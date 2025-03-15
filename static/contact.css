@@ -1,44 +1,44 @@
 .ImageContact {
-    position: absolute; /* Ensures it's positioned relative to the viewport */
+    position: absolute;
     top: 15%;
     left: 0;
-    width: 100vw; /* Full viewport width */
+    width: 100vw;
     display: flex;
-    flex-direction: column; /* Stack heading and image vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    background-color: #f5f5f5; /* Optional background for visibility */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevent scrollbars if content overflows */
+    overflow: hidden;
 }
 
 p#main1-heading {
     position: absolute;
-    font-family: arial; /* Use absolute to position it within the parent container */
+    font-family: arial;
     top: 30%;
     left: 50%;
     width: 70%;
     text-align: center;
-    transform: translate(-50%, -50%); /* Centers the heading */
+    transform: translate(-50%, -50%);
     font-size: 30px;
     font-weight: bold;
-    color: rgb(189, 254, 104);  /* White text color for contrast */
-    z-index: 10; /* Make s5ure the heading stays on top of the video */
+    color: rgb(189, 254, 104);
+    z-index: 10;
 }
 
 p#sub1-heading {
     position: absolute;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif; /* Use absolute to position it within the parent container */
+    font-family: 'Times New Roman', Times, serif;
     top: 60%;
     left: 50%;
     width: 70%;
-    transform: translate(-50%, -50%); /* Centers the heading */
+    transform: translate(-50%, -50%);
     font-size: 16px;
     font-weight: bold;
-    color: white;  /* White text color for contrast */
-    z-index: 10; /* Make sure the heading stays on top of the video */
+    color: white;
+    z-index: 10;
 }
 
 #TopContainer {

@@ -72,7 +72,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         console.log(key + ": " + value);
     });
 
-    fetch('https://hooks.zapier.com/hooks/catch/21636280/2aawbx7/', {
+    fetch('https://hooks.zapier.com/hooks/catch/980146/2l8cr7v/', {
         method: 'POST',
         body: formData
     })

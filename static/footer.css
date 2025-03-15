@@ -33,13 +33,11 @@
     max-width: 250px;
 }
 
-/* Company Logo */
 #company-image-footer {
     width: 150px; 
     height: auto;
 }
 
-/* Contact Information */
 #PhoneFooter {
     font-size: 1.5em;
     font-weight: bold;

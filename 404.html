@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <script>
+    const statePaths = {
+      "alabama": "how-to-open-a-dispensary-in-alabama",
+      "pennsylvania": "open-a-dispensary-in-pennsylvania",
+      "california": "how-to-open-a-dispensary-in-california"
+    };
+
+    // Extract the state name from the URL
+    const currentPath = window.location.pathname.split('/').pop().replace('.html', '');
+
+    // Check if the state exists in statePaths
+    if (statePaths[currentPath]) {
+      window.location.href = `https://www.greenrushconsulting.com/${statePaths[currentPath]}`;
+    } else {
+      document.body.innerHTML = `
+        <h1>Page Not Found</h1>
+        <p>We couldn't find the page you're looking for. <a href="https://www.greenrushconsulting.com/">Return to Home</a></p>
+      `;
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

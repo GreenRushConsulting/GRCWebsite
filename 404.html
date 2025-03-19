@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const regex = /^\/open-a-dispensary-in-(\w+)-$/;
   const match = currentPath.match(regex);
-
+    console.log(match)
   if (match) {
     const state = match[1];
     const newUrl = `/how-to-open-a-dispensary-in-${state}`;

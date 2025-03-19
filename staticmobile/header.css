@@ -93,12 +93,19 @@
         top: 14%;
     }
     div#statesMenu {
-        top: 30% !important;
+        top: 50% !important;
         width: 100% !important;
-    }
+        position: fixed;
+        left: -100%;
+        transition: left 0.5s ease; 
+      }
+      
+      div#statesMenu.active {
+        left: 0;
+      }
 
     div#State1 {
-        grid-template-columns: repeat(4, 1fr) !important;
+        grid-template-columns: repeat(3, 1fr) !important;
         font-size: 14px;
     }
 }
